@@ -1,8 +1,8 @@
-# Keylogger Collection
+<h1 align='center'>Keyloggers Collection</h1>
 This repository contains keyloggers for educational and penetration testing purposes. The keyloggers are designed to capture keystrokes and log activity on different operating systems. Please note that these are the first versions and will be refined and enhanced over time. These keyloggers designed for educational and ethical purposes.
-<h2>Disclaimer</h2>
+<h2 align='center'>Disclaimer</h2>
 These tools are intended for educational and ethical penetration testing only. Unauthorized use of these tools to monitor systems without permission is illegal and unethical.
-<h2>Keylogger Versions</h2>
+<h2 align='center'>Keylogger Versions</h2>
 <li><b>Installation:</b>
 <pre><code>git clone https://github.com/Kode-n-Rolla/keyloggers.git
 cd keyloggers</code></pre>
@@ -47,7 +47,7 @@ cd keyloggers</code></pre>
               <li><b>How to use:</b>
                 <ul><li>Place the JavaScript file containing the keylogger code into an HTML file, or link it via a &lt;script> tag</ul>
 </ol>
-<h3>Future Improvements:</h3>
+<h2 align='center'>Future Improvements:</h2>
 <ul>
   <li><b>Security Enhancements:</b> Aim to make the keyloggers more robust and add encryption to protect the captured logs
   <li><b>Additional Platforms:</b> Support for macOS and possible improvements to cross-platform functionality
