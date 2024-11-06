@@ -1,8 +1,11 @@
 # Keylogger Collection
-This repository contains two versions of a keylogger developed for educational and penetration testing purposes. The keyloggers are designed to capture keystrokes and log activity on different operating systems. Please note that these are the first versions and will be refined and enhanced over time.
+This repository contains keyloggers for educational and penetration testing purposes. The keyloggers are designed to capture keystrokes and log activity on different operating systems. Please note that these are the first versions and will be refined and enhanced over time. These keyloggers designed for educational and ethical purposes.
 <h2>Disclaimer</h2>
 These tools are intended for educational and ethical penetration testing only. Unauthorized use of these tools to monitor systems without permission is illegal and unethical.
 <h2>Keylogger Versions</h2>
+<li><b>Installation:</b>
+<pre><code>git clone https://github.com/Kode-n-Rolla/keyloggers.git
+cd keyloggers</code></pre>
 <ol>
   <h3><li>Linux Keylogger</h3>
     <ul>
@@ -14,13 +17,8 @@ These tools are intended for educational and ethical penetration testing only. U
           <li>Writes logs to a file for easy review and analysis
           <li>Requires root privileges for access to input devices
         </ul>
-      <li><b>Installation:</b>
-        <ol>
-          <li>Clone the file:
-            <pre><code>git clone https://github.com/Kode-n-Rolla/keylogger.py/blob/main/keylogger_test_lin.py</code></pre>
-          <li>Run the keylogger with root permissions:
+      <li><b>Run</b> the keylogger with root permissions:
             <pre><code>sudo python linux_keylogger.py</code></pre>
-        </ol>
     </ul>
     <h3><li>Windows Keylogger</h3>
       <ul>
@@ -32,14 +30,22 @@ These tools are intended for educational and ethical penetration testing only. U
             <li>Supports keyboard layout detection for accurate log representation
             <li>Outputs logs to a file with detailed information about the active application and layout
           </ul>
-              <li><b>Installation:</b>
-        <ol>
-          <li>Clone the file:
-            <pre><code>git clone https://github.com/Kode-n-Rolla/keylogger.py/blob/main/keylogger_test_win.py</code></pre>
-          <li>Run the keylogger:
-            <pre><code>python windows_keylogger.py</code></pre>
-        </ol>
+              <li><b>Run</b> the keylogger:
+                <pre><code>python windows_keylogger.py</code></pre>
       </ul>
+      <h3><li>Java Script Keylogger</h3>
+            <ul>
+        <li><b>Description:</b> It logs keypress events, including standard characters, special function keys (e.g., Esc, Enter, Backspace), and modifier keys (Shift, Ctrl, Alt). The keylogger also captures key combinations to provide more comprehensive data. The                   project showcases JavaScript's event handling capabilities, which could be useful in understanding how keylogging works
+        <li><b>Features:</b>
+          <ul>
+            <li>Logs Regular Keys: Captures standard keyboard characters, including letters, numbers, and symbols
+            <li>Detects Modifier Keys: Recognizes Shift, Ctrl, Alt, and Meta (Windows/Command) keys and includes them in the log
+            <li>Records Special Function Keys: Handles function keys (Esc, Backspace, Delete, Enter, Caps Lock, Tab, and arrow keys)
+            <li>Key Combination Logging: Logs combinations like Ctrl + C, Shift + A, or Alt + Enter
+            <li>Optional Server Communication: Allows sending logged key data to a server endpoint (e.g., for remote analysis)
+          </ul>
+              <li><b>How to use:</b>
+                <ul><li>Place the JavaScript file containing the keylogger code into an HTML file, or link it via a &lt;script> tag</ul>
 </ol>
 <h3>Future Improvements:</h3>
 <ul>
