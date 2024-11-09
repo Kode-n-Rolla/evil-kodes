@@ -1,10 +1,10 @@
 <h1 align='center'>Disclaimer</h1>
 These tools are intended for educational and ethical penetration testing only. Unauthorized use of these tools to monitor systems without permission is illegal and unethical.
+<li><b>Installation:</b>
+<pre><code>git clone https://github.com/Kode-n-Rolla/evil-codes.git
+cd evil-codes</code></pre>
 <h2 align='center'>Keylogges</h2>
 <p>The keyloggers are designed to capture keystrokes and log activity on different operating systems. Please note that these are the first versions and will be refined and enhanced over time. These keyloggers designed for educational and ethical purposes.
-<li><b>Installation:</b>
-<pre><code>git clone https://github.com/Kode-n-Rolla/keyloggers.git
-cd keyloggers</code></pre>
 <ol>
   <h3><li>Linux Keylogger</h3>
     <ul>
