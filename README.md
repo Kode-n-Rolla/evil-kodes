@@ -1,8 +1,7 @@
-<h1 align='center'>Keyloggers Collection</h1>
-This repository contains keyloggers for educational and penetration testing purposes. The keyloggers are designed to capture keystrokes and log activity on different operating systems. Please note that these are the first versions and will be refined and enhanced over time. These keyloggers designed for educational and ethical purposes.
-<h2 align='center'>Disclaimer</h2>
+<h1 align='center'>Disclaimer</h1>
 These tools are intended for educational and ethical penetration testing only. Unauthorized use of these tools to monitor systems without permission is illegal and unethical.
-<h2 align='center'>Keylogger Versions</h2>
+<h2 align='center'>Keylogges</h2>
+<p>The keyloggers are designed to capture keystrokes and log activity on different operating systems. Please note that these are the first versions and will be refined and enhanced over time. These keyloggers designed for educational and ethical purposes.
 <li><b>Installation:</b>
 <pre><code>git clone https://github.com/Kode-n-Rolla/keyloggers.git
 cd keyloggers</code></pre>
