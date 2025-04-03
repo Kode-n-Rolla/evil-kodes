@@ -1,6 +1,6 @@
 <h1 align='center'>Disclaimer</h1>
 These tools are intended for educational and ethical penetration testing only. Unauthorized use of these tools to monitor systems without permission is illegal and unethical.
-<li><b>Installation:</b>
+<li><b>Download:</b>
 <pre><code>git clone https://github.com/Kode-n-Rolla/evil-codes.git
 cd evil-codes</code></pre>
 <h2 align='center'>Keyloggers</h2>
