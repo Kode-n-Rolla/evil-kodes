@@ -32,7 +32,7 @@ cd evil-codes</code></pre>
               <li><b>Run</b> the keylogger:
                 <pre><code>python windows_keylogger.py</code></pre>
       </ul>
-      <h3><li>Java Script Keylogger</h3>
+      <h3><li>JavaScript Keylogger</h3>
             <ul>
         <li><b>Description:</b> It logs keypress events, including standard characters, special function keys (e.g., Esc, Enter, Backspace), and modifier keys (Shift, Ctrl, Alt). The keylogger also captures key combinations to provide more comprehensive data. The                   project showcases JavaScript's event handling capabilities, which could be useful in understanding how keylogging works
         <li><b>Features:</b>
